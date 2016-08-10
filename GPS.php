@@ -81,7 +81,7 @@ class GPS
 
         fclose($stream);
 
-        throw new RuntimException('Could not find line type: ' . $type);
+        throw new RuntimeException('Could not find line type: ' . $type);
     }
 }
 
